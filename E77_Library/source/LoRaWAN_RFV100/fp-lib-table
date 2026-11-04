@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SENZO_Legacy") (type "KiCad") (uri "${KIPRJMOD}/SENZO_Legacy.pretty") (options "") (descr "Actual embedded CG_Pro_V2100 footprints; package reuse only"))
+	(lib (name "SENZO_Magsen") (type "KiCad") (uri "${KIPRJMOD}/SENZO_Magsen.pretty") (options "") (descr "Exact copies of MagsenV300 referenced local footprints"))
+	(lib (name "SENZO_Connectors") (type "KiCad") (uri "${KIPRJMOD}/SENZO_Connectors.pretty") (options "") (descr "User drawing based provisional connectors; see review"))
+	(lib (name "SENZO_RF") (type "KiCad") (uri "${KIPRJMOD}/SENZO_RF.pretty") (options "") (descr "Manufacturer imported RF footprints; review holds documented"))
+)

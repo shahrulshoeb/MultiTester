@@ -1,0 +1,2346 @@
+(export
+	(version "E")
+	(design
+		(source "D:\\MyCodex\\MultiTester\\kicad\\FlexTesterV100\\FlexTesterV100.kicad_sch")
+		(date "2026-10-16T18:30:58")
+		(tool "Eeschema 10.0.3")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "FlexTesterV100.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "J1")
+			(value "LXB_H2_H3")
+			(footprint "FlexTesterV100:LXB_H2_H3")
+			(description "LXB STM32F407ZG-P1 H2 2x29 header; all pins passive; numbers are header contacts")
+			(fields
+				(field
+					(name "Footprint") "FlexTesterV100:LXB_H2_H3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LXB STM32F407ZG-P1 H2 2x29 header; all pins passive; numbers are header contacts")
+			)
+			(libsource
+				(lib "FlexTesterV100")
+				(part "LXB_H2_H3")
+				(description "Complete STM32F407ZGT6 core board; unit A=H2, unit B=H3; verify module revision")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "FlexTesterV100.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LXB_H2_H3_SourcePCB*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4bc1cce4-f633-4f11-b0df-6c5e785181fc" "01101c9a-105c-40c6-9715-e4fd1ef3d763")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "H2_1")
+						)
+						(pin
+							(num "H2_3")
+						)
+						(pin
+							(num "H2_5")
+						)
+						(pin
+							(num "H2_7")
+						)
+						(pin
+							(num "H2_9")
+						)
+						(pin
+							(num "H2_11")
+						)
+						(pin
+							(num "H2_13")
+						)
+						(pin
+							(num "H2_15")
+						)
+						(pin
+							(num "H2_17")
+						)
+						(pin
+							(num "H2_19")
+						)
+						(pin
+							(num "H2_21")
+						)
+						(pin
+							(num "H2_23")
+						)
+						(pin
+							(num "H2_25")
+						)
+						(pin
+							(num "H2_27")
+						)
+						(pin
+							(num "H2_29")
+						)
+						(pin
+							(num "H2_31")
+						)
+						(pin
+							(num "H2_33")
+						)
+						(pin
+							(num "H2_35")
+						)
+						(pin
+							(num "H2_37")
+						)
+						(pin
+							(num "H2_39")
+						)
+						(pin
+							(num "H2_41")
+						)
+						(pin
+							(num "H2_43")
+						)
+						(pin
+							(num "H2_45")
+						)
+						(pin
+							(num "H2_47")
+						)
+						(pin
+							(num "H2_49")
+						)
+						(pin
+							(num "H2_51")
+						)
+						(pin
+							(num "H2_53")
+						)
+						(pin
+							(num "H2_55")
+						)
+						(pin
+							(num "H2_57")
+						)
+						(pin
+							(num "H2_2")
+						)
+						(pin
+							(num "H2_4")
+						)
+						(pin
+							(num "H2_6")
+						)
+						(pin
+							(num "H2_8")
+						)
+						(pin
+							(num "H2_10")
+						)
+						(pin
+							(num "H2_12")
+						)
+						(pin
+							(num "H2_14")
+						)
+						(pin
+							(num "H2_16")
+						)
+						(pin
+							(num "H2_18")
+						)
+						(pin
+							(num "H2_20")
+						)
+						(pin
+							(num "H2_22")
+						)
+						(pin
+							(num "H2_24")
+						)
+						(pin
+							(num "H2_26")
+						)
+						(pin
+							(num "H2_28")
+						)
+						(pin
+							(num "H2_30")
+						)
+						(pin
+							(num "H2_32")
+						)
+						(pin
+							(num "H2_34")
+						)
+						(pin
+							(num "H2_36")
+						)
+						(pin
+							(num "H2_38")
+						)
+						(pin
+							(num "H2_40")
+						)
+						(pin
+							(num "H2_42")
+						)
+						(pin
+							(num "H2_44")
+						)
+						(pin
+							(num "H2_46")
+						)
+						(pin
+							(num "H2_48")
+						)
+						(pin
+							(num "H2_50")
+						)
+						(pin
+							(num "H2_52")
+						)
+						(pin
+							(num "H2_54")
+						)
+						(pin
+							(num "H2_56")
+						)
+						(pin
+							(num "H2_58")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "H3_1")
+						)
+						(pin
+							(num "H3_3")
+						)
+						(pin
+							(num "H3_5")
+						)
+						(pin
+							(num "H3_7")
+						)
+						(pin
+							(num "H3_9")
+						)
+						(pin
+							(num "H3_11")
+						)
+						(pin
+							(num "H3_13")
+						)
+						(pin
+							(num "H3_15")
+						)
+						(pin
+							(num "H3_17")
+						)
+						(pin
+							(num "H3_19")
+						)
+						(pin
+							(num "H3_21")
+						)
+						(pin
+							(num "H3_23")
+						)
+						(pin
+							(num "H3_25")
+						)
+						(pin
+							(num "H3_27")
+						)
+						(pin
+							(num "H3_29")
+						)
+						(pin
+							(num "H3_31")
+						)
+						(pin
+							(num "H3_33")
+						)
+						(pin
+							(num "H3_35")
+						)
+						(pin
+							(num "H3_37")
+						)
+						(pin
+							(num "H3_39")
+						)
+						(pin
+							(num "H3_41")
+						)
+						(pin
+							(num "H3_43")
+						)
+						(pin
+							(num "H3_45")
+						)
+						(pin
+							(num "H3_47")
+						)
+						(pin
+							(num "H3_49")
+						)
+						(pin
+							(num "H3_51")
+						)
+						(pin
+							(num "H3_53")
+						)
+						(pin
+							(num "H3_55")
+						)
+						(pin
+							(num "H3_57")
+						)
+						(pin
+							(num "H3_2")
+						)
+						(pin
+							(num "H3_4")
+						)
+						(pin
+							(num "H3_6")
+						)
+						(pin
+							(num "H3_8")
+						)
+						(pin
+							(num "H3_10")
+						)
+						(pin
+							(num "H3_12")
+						)
+						(pin
+							(num "H3_14")
+						)
+						(pin
+							(num "H3_16")
+						)
+						(pin
+							(num "H3_18")
+						)
+						(pin
+							(num "H3_20")
+						)
+						(pin
+							(num "H3_22")
+						)
+						(pin
+							(num "H3_24")
+						)
+						(pin
+							(num "H3_26")
+						)
+						(pin
+							(num "H3_28")
+						)
+						(pin
+							(num "H3_30")
+						)
+						(pin
+							(num "H3_32")
+						)
+						(pin
+							(num "H3_34")
+						)
+						(pin
+							(num "H3_36")
+						)
+						(pin
+							(num "H3_38")
+						)
+						(pin
+							(num "H3_40")
+						)
+						(pin
+							(num "H3_42")
+						)
+						(pin
+							(num "H3_44")
+						)
+						(pin
+							(num "H3_46")
+						)
+						(pin
+							(num "H3_48")
+						)
+						(pin
+							(num "H3_50")
+						)
+						(pin
+							(num "H3_52")
+						)
+						(pin
+							(num "H3_54")
+						)
+						(pin
+							(num "H3_56")
+						)
+						(pin
+							(num "H3_58")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "FlexTesterV100")
+			(part "LXB_H2_H3")
+			(description "Complete STM32F407ZGT6 core board; unit A=H2, unit B=H3; verify module revision")
+			(footprints
+				(fp "LXB_H2_H3_SourcePCB*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "LXB_H2_H3")
+				(field
+					(name "Footprint") "FlexTesterV100:LXB_H2_H3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Complete STM32F407ZGT6 core board; unit A=H2, unit B=H3; verify module revision")
+			)
+			(pins
+				(pin
+					(num "H2_1")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "H2_2")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "H2_3")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "H2_4")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "H2_5")
+					(name "LCD_BL-PD13")
+					(type "passive")
+				)
+				(pin
+					(num "H2_6")
+					(name "LCD_DC-PD12")
+					(type "passive")
+				)
+				(pin
+					(num "H2_7")
+					(name "LCD_CS-PD11")
+					(type "passive")
+				)
+				(pin
+					(num "H2_8")
+					(name "PD10")
+					(type "passive")
+				)
+				(pin
+					(num "H2_9")
+					(name "PD9")
+					(type "passive")
+				)
+				(pin
+					(num "H2_10")
+					(name "PD8")
+					(type "passive")
+				)
+				(pin
+					(num "H2_11")
+					(name "PB15")
+					(type "passive")
+				)
+				(pin
+					(num "H2_12")
+					(name "PB14")
+					(type "passive")
+				)
+				(pin
+					(num "H2_13")
+					(name "PB13")
+					(type "passive")
+				)
+				(pin
+					(num "H2_14")
+					(name "PB12")
+					(type "passive")
+				)
+				(pin
+					(num "H2_15")
+					(name "PD14")
+					(type "passive")
+				)
+				(pin
+					(num "H2_16")
+					(name "PD15")
+					(type "passive")
+				)
+				(pin
+					(num "H2_17")
+					(name "PG2")
+					(type "passive")
+				)
+				(pin
+					(num "H2_18")
+					(name "PG3")
+					(type "passive")
+				)
+				(pin
+					(num "H2_19")
+					(name "PG4")
+					(type "passive")
+				)
+				(pin
+					(num "H2_20")
+					(name "PB11")
+					(type "passive")
+				)
+				(pin
+					(num "H2_21")
+					(name "PB10")
+					(type "passive")
+				)
+				(pin
+					(num "H2_22")
+					(name "PE15")
+					(type "passive")
+				)
+				(pin
+					(num "H2_23")
+					(name "PE14")
+					(type "passive")
+				)
+				(pin
+					(num "H2_24")
+					(name "PE13")
+					(type "passive")
+				)
+				(pin
+					(num "H2_25")
+					(name "PE12")
+					(type "passive")
+				)
+				(pin
+					(num "H2_26")
+					(name "PE11")
+					(type "passive")
+				)
+				(pin
+					(num "H2_27")
+					(name "PE10")
+					(type "passive")
+				)
+				(pin
+					(num "H2_28")
+					(name "PE9")
+					(type "passive")
+				)
+				(pin
+					(num "H2_29")
+					(name "PE7")
+					(type "passive")
+				)
+				(pin
+					(num "H2_30")
+					(name "PE8")
+					(type "passive")
+				)
+				(pin
+					(num "H2_31")
+					(name "PG0")
+					(type "passive")
+				)
+				(pin
+					(num "H2_32")
+					(name "PG1")
+					(type "passive")
+				)
+				(pin
+					(num "H2_33")
+					(name "PF12")
+					(type "passive")
+				)
+				(pin
+					(num "H2_34")
+					(name "PF15")
+					(type "passive")
+				)
+				(pin
+					(num "H2_35")
+					(name "PB2_BOOT1")
+					(type "passive")
+				)
+				(pin
+					(num "H2_36")
+					(name "PF11")
+					(type "passive")
+				)
+				(pin
+					(num "H2_37")
+					(name "PA7")
+					(type "passive")
+				)
+				(pin
+					(num "H2_38")
+					(name "PC4")
+					(type "passive")
+				)
+				(pin
+					(num "H2_39")
+					(name "PA5")
+					(type "passive")
+				)
+				(pin
+					(num "H2_40")
+					(name "PA6")
+					(type "passive")
+				)
+				(pin
+					(num "H2_41")
+					(name "PA3")
+					(type "passive")
+				)
+				(pin
+					(num "H2_42")
+					(name "PA4")
+					(type "passive")
+				)
+				(pin
+					(num "H2_43")
+					(name "PB0")
+					(type "passive")
+				)
+				(pin
+					(num "H2_44")
+					(name "PC5")
+					(type "passive")
+				)
+				(pin
+					(num "H2_45")
+					(name "PF13")
+					(type "passive")
+				)
+				(pin
+					(num "H2_46")
+					(name "PB1")
+					(type "passive")
+				)
+				(pin
+					(num "H2_47")
+					(name "PA2")
+					(type "passive")
+				)
+				(pin
+					(num "H2_48")
+					(name "PF14")
+					(type "passive")
+				)
+				(pin
+					(num "H2_49")
+					(name "PA0")
+					(type "passive")
+				)
+				(pin
+					(num "H2_50")
+					(name "PA1")
+					(type "passive")
+				)
+				(pin
+					(num "H2_51")
+					(name "PF8")
+					(type "passive")
+				)
+				(pin
+					(num "H2_52")
+					(name "PF7")
+					(type "passive")
+				)
+				(pin
+					(num "H2_53")
+					(name "PF10")
+					(type "passive")
+				)
+				(pin
+					(num "H2_54")
+					(name "PF9")
+					(type "passive")
+				)
+				(pin
+					(num "H2_55")
+					(name "PC1")
+					(type "passive")
+				)
+				(pin
+					(num "H2_56")
+					(name "PC0")
+					(type "passive")
+				)
+				(pin
+					(num "H2_57")
+					(name "PC3")
+					(type "passive")
+				)
+				(pin
+					(num "H2_58")
+					(name "PC2")
+					(type "passive")
+				)
+				(pin
+					(num "H3_1")
+					(name "5V")
+					(type "passive")
+				)
+				(pin
+					(num "H3_2")
+					(name "5V")
+					(type "passive")
+				)
+				(pin
+					(num "H3_3")
+					(name "3V3")
+					(type "passive")
+				)
+				(pin
+					(num "H3_4")
+					(name "3V3")
+					(type "passive")
+				)
+				(pin
+					(num "H3_5")
+					(name "USB_D-")
+					(type "passive")
+				)
+				(pin
+					(num "H3_6")
+					(name "USB_D+")
+					(type "passive")
+				)
+				(pin
+					(num "H3_7")
+					(name "PG6")
+					(type "passive")
+				)
+				(pin
+					(num "H3_8")
+					(name "PG5")
+					(type "passive")
+				)
+				(pin
+					(num "H3_9")
+					(name "PG8")
+					(type "passive")
+				)
+				(pin
+					(num "H3_10")
+					(name "PG7")
+					(type "passive")
+				)
+				(pin
+					(num "H3_11")
+					(name "PC7")
+					(type "passive")
+				)
+				(pin
+					(num "H3_12")
+					(name "PC6")
+					(type "passive")
+				)
+				(pin
+					(num "H3_13")
+					(name "SDIO_D1_PC9")
+					(type "passive")
+				)
+				(pin
+					(num "H3_14")
+					(name "SDIO_D0_PC8")
+					(type "passive")
+				)
+				(pin
+					(num "H3_15")
+					(name "USART1-TX_PA9")
+					(type "passive")
+				)
+				(pin
+					(num "H3_16")
+					(name "USART1-RX_PA10")
+					(type "passive")
+				)
+				(pin
+					(num "H3_17")
+					(name "PA8")
+					(type "passive")
+				)
+				(pin
+					(num "H3_18")
+					(name "SDIO_D2_PC10")
+					(type "passive")
+				)
+				(pin
+					(num "H3_19")
+					(name "SDIO_D3_PC11")
+					(type "passive")
+				)
+				(pin
+					(num "H3_20")
+					(name "SDIO_CLK_PC12")
+					(type "passive")
+				)
+				(pin
+					(num "H3_21")
+					(name "PD0")
+					(type "passive")
+				)
+				(pin
+					(num "H3_22")
+					(name "PD1")
+					(type "passive")
+				)
+				(pin
+					(num "H3_23")
+					(name "SDIO_CMD_PD2")
+					(type "passive")
+				)
+				(pin
+					(num "H3_24")
+					(name "PD3")
+					(type "passive")
+				)
+				(pin
+					(num "H3_25")
+					(name "PD4")
+					(type "passive")
+				)
+				(pin
+					(num "H3_26")
+					(name "PD5")
+					(type "passive")
+				)
+				(pin
+					(num "H3_27")
+					(name "PD6")
+					(type "passive")
+				)
+				(pin
+					(num "H3_28")
+					(name "PD7")
+					(type "passive")
+				)
+				(pin
+					(num "H3_29")
+					(name "PG9")
+					(type "passive")
+				)
+				(pin
+					(num "H3_30")
+					(name "PG10")
+					(type "passive")
+				)
+				(pin
+					(num "H3_31")
+					(name "PG11")
+					(type "passive")
+				)
+				(pin
+					(num "H3_32")
+					(name "PG15")
+					(type "passive")
+				)
+				(pin
+					(num "H3_33")
+					(name "SPI3_SCK-PB3")
+					(type "passive")
+				)
+				(pin
+					(num "H3_34")
+					(name "PB4")
+					(type "passive")
+				)
+				(pin
+					(num "H3_35")
+					(name "SPI3_MOSI-PB5")
+					(type "passive")
+				)
+				(pin
+					(num "H3_36")
+					(name "PB6")
+					(type "passive")
+				)
+				(pin
+					(num "H3_37")
+					(name "PB7")
+					(type "passive")
+				)
+				(pin
+					(num "H3_38")
+					(name "PB8")
+					(type "passive")
+				)
+				(pin
+					(num "H3_39")
+					(name "PB9")
+					(type "passive")
+				)
+				(pin
+					(num "H3_40")
+					(name "PE1")
+					(type "passive")
+				)
+				(pin
+					(num "H3_41")
+					(name "PE0")
+					(type "passive")
+				)
+				(pin
+					(num "H3_42")
+					(name "PG14")
+					(type "passive")
+				)
+				(pin
+					(num "H3_43")
+					(name "PG13")
+					(type "passive")
+				)
+				(pin
+					(num "H3_44")
+					(name "PG12")
+					(type "passive")
+				)
+				(pin
+					(num "H3_45")
+					(name "PE2")
+					(type "passive")
+				)
+				(pin
+					(num "H3_46")
+					(name "PE3")
+					(type "passive")
+				)
+				(pin
+					(num "H3_47")
+					(name "PE4")
+					(type "passive")
+				)
+				(pin
+					(num "H3_48")
+					(name "PE5")
+					(type "passive")
+				)
+				(pin
+					(num "H3_49")
+					(name "PE6_KEY")
+					(type "passive")
+				)
+				(pin
+					(num "H3_50")
+					(name "KEY_PA15")
+					(type "passive")
+				)
+				(pin
+					(num "H3_51")
+					(name "LED_PC13")
+					(type "passive")
+				)
+				(pin
+					(num "H3_52")
+					(name "PF0")
+					(type "passive")
+				)
+				(pin
+					(num "H3_53")
+					(name "PF1")
+					(type "passive")
+				)
+				(pin
+					(num "H3_54")
+					(name "PF2")
+					(type "passive")
+				)
+				(pin
+					(num "H3_55")
+					(name "PF3")
+					(type "passive")
+				)
+				(pin
+					(num "H3_56")
+					(name "PF4")
+					(type "passive")
+				)
+				(pin
+					(num "H3_57")
+					(name "PF5")
+					(type "passive")
+				)
+				(pin
+					(num "H3_58")
+					(name "PF6")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "FlexTesterV100")
+			(uri "${KIPRJMOD}/FlexTesterV100.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "unconnected-(J1A-GND-PadH2_1)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_1")
+				(pinfunction "GND_H2_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "unconnected-(J1A-GND-PadH2_2)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_2")
+				(pinfunction "GND_H2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "unconnected-(J1A-GND-PadH2_3)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_3")
+				(pinfunction "GND_H2_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "unconnected-(J1A-GND-PadH2_4)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_4")
+				(pinfunction "GND_H2_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "unconnected-(J1A-LCD_BL-PD13-PadH2_5)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_5")
+				(pinfunction "LCD_BL-PD13_H2_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "unconnected-(J1A-LCD_CS-PD11-PadH2_7)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_7")
+				(pinfunction "LCD_CS-PD11_H2_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "unconnected-(J1A-LCD_DC-PD12-PadH2_6)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_6")
+				(pinfunction "LCD_DC-PD12_H2_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "unconnected-(J1A-PA0-PadH2_49)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_49")
+				(pinfunction "PA0_H2_49")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "unconnected-(J1A-PA1-PadH2_50)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_50")
+				(pinfunction "PA1_H2_50")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "unconnected-(J1A-PA2-PadH2_47)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_47")
+				(pinfunction "PA2_H2_47")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "unconnected-(J1A-PA3-PadH2_41)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_41")
+				(pinfunction "PA3_H2_41")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "unconnected-(J1A-PA4-PadH2_42)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_42")
+				(pinfunction "PA4_H2_42")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "unconnected-(J1A-PA5-PadH2_39)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_39")
+				(pinfunction "PA5_H2_39")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "unconnected-(J1A-PA6-PadH2_40)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_40")
+				(pinfunction "PA6_H2_40")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "unconnected-(J1A-PA7-PadH2_37)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_37")
+				(pinfunction "PA7_H2_37")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "unconnected-(J1A-PB0-PadH2_43)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_43")
+				(pinfunction "PB0_H2_43")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "unconnected-(J1A-PB1-PadH2_46)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_46")
+				(pinfunction "PB1_H2_46")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "unconnected-(J1A-PB2_BOOT1-PadH2_35)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_35")
+				(pinfunction "PB2_BOOT1_H2_35")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "unconnected-(J1A-PB10-PadH2_21)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_21")
+				(pinfunction "PB10_H2_21")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "unconnected-(J1A-PB11-PadH2_20)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_20")
+				(pinfunction "PB11_H2_20")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "unconnected-(J1A-PB12-PadH2_14)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_14")
+				(pinfunction "PB12_H2_14")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "unconnected-(J1A-PB13-PadH2_13)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_13")
+				(pinfunction "PB13_H2_13")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "unconnected-(J1A-PB14-PadH2_12)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_12")
+				(pinfunction "PB14_H2_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "unconnected-(J1A-PB15-PadH2_11)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_11")
+				(pinfunction "PB15_H2_11")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "unconnected-(J1A-PC0-PadH2_56)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_56")
+				(pinfunction "PC0_H2_56")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "unconnected-(J1A-PC1-PadH2_55)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_55")
+				(pinfunction "PC1_H2_55")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "unconnected-(J1A-PC2-PadH2_58)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_58")
+				(pinfunction "PC2_H2_58")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "unconnected-(J1A-PC3-PadH2_57)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_57")
+				(pinfunction "PC3_H2_57")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "unconnected-(J1A-PC4-PadH2_38)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_38")
+				(pinfunction "PC4_H2_38")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "unconnected-(J1A-PC5-PadH2_44)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_44")
+				(pinfunction "PC5_H2_44")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(J1A-PD8-PadH2_10)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_10")
+				(pinfunction "PD8_H2_10")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "32")
+			(name "unconnected-(J1A-PD9-PadH2_9)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_9")
+				(pinfunction "PD9_H2_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "33")
+			(name "unconnected-(J1A-PD10-PadH2_8)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_8")
+				(pinfunction "PD10_H2_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "34")
+			(name "unconnected-(J1A-PD14-PadH2_15)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_15")
+				(pinfunction "PD14_H2_15")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "35")
+			(name "unconnected-(J1A-PD15-PadH2_16)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_16")
+				(pinfunction "PD15_H2_16")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "36")
+			(name "unconnected-(J1A-PE7-PadH2_29)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_29")
+				(pinfunction "PE7_H2_29")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "37")
+			(name "unconnected-(J1A-PE8-PadH2_30)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_30")
+				(pinfunction "PE8_H2_30")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "unconnected-(J1A-PE9-PadH2_28)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_28")
+				(pinfunction "PE9_H2_28")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "39")
+			(name "unconnected-(J1A-PE10-PadH2_27)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_27")
+				(pinfunction "PE10_H2_27")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "40")
+			(name "unconnected-(J1A-PE11-PadH2_26)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_26")
+				(pinfunction "PE11_H2_26")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "41")
+			(name "unconnected-(J1A-PE12-PadH2_25)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_25")
+				(pinfunction "PE12_H2_25")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "42")
+			(name "unconnected-(J1A-PE13-PadH2_24)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_24")
+				(pinfunction "PE13_H2_24")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "43")
+			(name "unconnected-(J1A-PE14-PadH2_23)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_23")
+				(pinfunction "PE14_H2_23")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "44")
+			(name "unconnected-(J1A-PE15-PadH2_22)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_22")
+				(pinfunction "PE15_H2_22")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "45")
+			(name "unconnected-(J1A-PF7-PadH2_52)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_52")
+				(pinfunction "PF7_H2_52")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "46")
+			(name "unconnected-(J1A-PF8-PadH2_51)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_51")
+				(pinfunction "PF8_H2_51")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "47")
+			(name "unconnected-(J1A-PF9-PadH2_54)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_54")
+				(pinfunction "PF9_H2_54")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "48")
+			(name "unconnected-(J1A-PF10-PadH2_53)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_53")
+				(pinfunction "PF10_H2_53")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "49")
+			(name "unconnected-(J1A-PF11-PadH2_36)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_36")
+				(pinfunction "PF11_H2_36")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "50")
+			(name "unconnected-(J1A-PF12-PadH2_33)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_33")
+				(pinfunction "PF12_H2_33")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "51")
+			(name "unconnected-(J1A-PF13-PadH2_45)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_45")
+				(pinfunction "PF13_H2_45")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "52")
+			(name "unconnected-(J1A-PF14-PadH2_48)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_48")
+				(pinfunction "PF14_H2_48")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "53")
+			(name "unconnected-(J1A-PF15-PadH2_34)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_34")
+				(pinfunction "PF15_H2_34")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "54")
+			(name "unconnected-(J1A-PG0-PadH2_31)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_31")
+				(pinfunction "PG0_H2_31")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "55")
+			(name "unconnected-(J1A-PG1-PadH2_32)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_32")
+				(pinfunction "PG1_H2_32")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "56")
+			(name "unconnected-(J1A-PG2-PadH2_17)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_17")
+				(pinfunction "PG2_H2_17")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "57")
+			(name "unconnected-(J1A-PG3-PadH2_18)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_18")
+				(pinfunction "PG3_H2_18")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "58")
+			(name "unconnected-(J1A-PG4-PadH2_19)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H2_19")
+				(pinfunction "PG4_H2_19")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "59")
+			(name "unconnected-(J1B-3V3-PadH3_3)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_3")
+				(pinfunction "3V3_H3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "60")
+			(name "unconnected-(J1B-3V3-PadH3_4)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_4")
+				(pinfunction "3V3_H3_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "61")
+			(name "unconnected-(J1B-5V-PadH3_1)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_1")
+				(pinfunction "5V_H3_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "62")
+			(name "unconnected-(J1B-5V-PadH3_2)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_2")
+				(pinfunction "5V_H3_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "63")
+			(name "unconnected-(J1B-KEY_PA15-PadH3_50)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_50")
+				(pinfunction "KEY_PA15_H3_50")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "64")
+			(name "unconnected-(J1B-LED_PC13-PadH3_51)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_51")
+				(pinfunction "LED_PC13_H3_51")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "65")
+			(name "unconnected-(J1B-PA8-PadH3_17)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_17")
+				(pinfunction "PA8_H3_17")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "66")
+			(name "unconnected-(J1B-PB4-PadH3_34)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_34")
+				(pinfunction "PB4_H3_34")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "67")
+			(name "unconnected-(J1B-PB6-PadH3_36)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_36")
+				(pinfunction "PB6_H3_36")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "68")
+			(name "unconnected-(J1B-PB7-PadH3_37)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_37")
+				(pinfunction "PB7_H3_37")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "69")
+			(name "unconnected-(J1B-PB8-PadH3_38)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_38")
+				(pinfunction "PB8_H3_38")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "70")
+			(name "unconnected-(J1B-PB9-PadH3_39)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_39")
+				(pinfunction "PB9_H3_39")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "71")
+			(name "unconnected-(J1B-PC6-PadH3_12)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_12")
+				(pinfunction "PC6_H3_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "72")
+			(name "unconnected-(J1B-PC7-PadH3_11)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_11")
+				(pinfunction "PC7_H3_11")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "73")
+			(name "unconnected-(J1B-PD0-PadH3_21)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_21")
+				(pinfunction "PD0_H3_21")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "74")
+			(name "unconnected-(J1B-PD1-PadH3_22)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_22")
+				(pinfunction "PD1_H3_22")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "75")
+			(name "unconnected-(J1B-PD3-PadH3_24)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_24")
+				(pinfunction "PD3_H3_24")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "76")
+			(name "unconnected-(J1B-PD4-PadH3_25)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_25")
+				(pinfunction "PD4_H3_25")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "77")
+			(name "unconnected-(J1B-PD5-PadH3_26)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_26")
+				(pinfunction "PD5_H3_26")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "78")
+			(name "unconnected-(J1B-PD6-PadH3_27)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_27")
+				(pinfunction "PD6_H3_27")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "79")
+			(name "unconnected-(J1B-PD7-PadH3_28)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_28")
+				(pinfunction "PD7_H3_28")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "80")
+			(name "unconnected-(J1B-PE0-PadH3_41)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_41")
+				(pinfunction "PE0_H3_41")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "81")
+			(name "unconnected-(J1B-PE1-PadH3_40)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_40")
+				(pinfunction "PE1_H3_40")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "82")
+			(name "unconnected-(J1B-PE2-PadH3_45)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_45")
+				(pinfunction "PE2_H3_45")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "83")
+			(name "unconnected-(J1B-PE3-PadH3_46)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_46")
+				(pinfunction "PE3_H3_46")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "84")
+			(name "unconnected-(J1B-PE4-PadH3_47)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_47")
+				(pinfunction "PE4_H3_47")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "85")
+			(name "unconnected-(J1B-PE5-PadH3_48)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_48")
+				(pinfunction "PE5_H3_48")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "86")
+			(name "unconnected-(J1B-PE6_KEY-PadH3_49)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_49")
+				(pinfunction "PE6_KEY_H3_49")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "87")
+			(name "unconnected-(J1B-PF0-PadH3_52)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_52")
+				(pinfunction "PF0_H3_52")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "88")
+			(name "unconnected-(J1B-PF1-PadH3_53)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_53")
+				(pinfunction "PF1_H3_53")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "89")
+			(name "unconnected-(J1B-PF2-PadH3_54)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_54")
+				(pinfunction "PF2_H3_54")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "90")
+			(name "unconnected-(J1B-PF3-PadH3_55)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_55")
+				(pinfunction "PF3_H3_55")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "91")
+			(name "unconnected-(J1B-PF4-PadH3_56)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_56")
+				(pinfunction "PF4_H3_56")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "92")
+			(name "unconnected-(J1B-PF5-PadH3_57)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_57")
+				(pinfunction "PF5_H3_57")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "93")
+			(name "unconnected-(J1B-PF6-PadH3_58)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_58")
+				(pinfunction "PF6_H3_58")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "94")
+			(name "unconnected-(J1B-PG5-PadH3_8)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_8")
+				(pinfunction "PG5_H3_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "95")
+			(name "unconnected-(J1B-PG6-PadH3_7)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_7")
+				(pinfunction "PG6_H3_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "96")
+			(name "unconnected-(J1B-PG7-PadH3_10)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_10")
+				(pinfunction "PG7_H3_10")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "97")
+			(name "unconnected-(J1B-PG8-PadH3_9)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_9")
+				(pinfunction "PG8_H3_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "98")
+			(name "unconnected-(J1B-PG9-PadH3_29)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_29")
+				(pinfunction "PG9_H3_29")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "99")
+			(name "unconnected-(J1B-PG10-PadH3_30)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_30")
+				(pinfunction "PG10_H3_30")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "100")
+			(name "unconnected-(J1B-PG11-PadH3_31)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_31")
+				(pinfunction "PG11_H3_31")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "101")
+			(name "unconnected-(J1B-PG12-PadH3_44)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_44")
+				(pinfunction "PG12_H3_44")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "102")
+			(name "unconnected-(J1B-PG13-PadH3_43)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_43")
+				(pinfunction "PG13_H3_43")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "103")
+			(name "unconnected-(J1B-PG14-PadH3_42)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_42")
+				(pinfunction "PG14_H3_42")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "104")
+			(name "unconnected-(J1B-PG15-PadH3_32)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_32")
+				(pinfunction "PG15_H3_32")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "105")
+			(name "unconnected-(J1B-SDIO_CLK_PC12-PadH3_20)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_20")
+				(pinfunction "SDIO_CLK_PC12_H3_20")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "106")
+			(name "unconnected-(J1B-SDIO_CMD_PD2-PadH3_23)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_23")
+				(pinfunction "SDIO_CMD_PD2_H3_23")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "107")
+			(name "unconnected-(J1B-SDIO_D0_PC8-PadH3_14)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_14")
+				(pinfunction "SDIO_D0_PC8_H3_14")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "108")
+			(name "unconnected-(J1B-SDIO_D1_PC9-PadH3_13)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_13")
+				(pinfunction "SDIO_D1_PC9_H3_13")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "109")
+			(name "unconnected-(J1B-SDIO_D2_PC10-PadH3_18)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_18")
+				(pinfunction "SDIO_D2_PC10_H3_18")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "110")
+			(name "unconnected-(J1B-SDIO_D3_PC11-PadH3_19)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_19")
+				(pinfunction "SDIO_D3_PC11_H3_19")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "111")
+			(name "unconnected-(J1B-SPI3_MOSI-PB5-PadH3_35)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_35")
+				(pinfunction "SPI3_MOSI-PB5_H3_35")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "112")
+			(name "unconnected-(J1B-SPI3_SCK-PB3-PadH3_33)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_33")
+				(pinfunction "SPI3_SCK-PB3_H3_33")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "113")
+			(name "unconnected-(J1B-USART1-RX_PA10-PadH3_16)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_16")
+				(pinfunction "USART1-RX_PA10_H3_16")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "114")
+			(name "unconnected-(J1B-USART1-TX_PA9-PadH3_15)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_15")
+				(pinfunction "USART1-TX_PA9_H3_15")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "115")
+			(name "unconnected-(J1B-USB_D+-PadH3_6)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_6")
+				(pinfunction "USB_D+_H3_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "116")
+			(name "unconnected-(J1B-USB_D--PadH3_5)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "H3_5")
+				(pinfunction "USB_D-_H3_5")
+				(pintype "passive")
+			)
+		)
+	)
+)

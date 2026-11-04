@@ -1,0 +1,139 @@
+(footprint "2EDGRC_1x04_P2.54mm_RightAngle_Body"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "PROVISIONAL: user 2EDGRC right-angle 4P 2.54mm; supplier hole diameter1.40mm. Pads2.00mm are design-selected, body/courtyard datum unverified.")
+	(property "Reference" "J"
+		(at -5.615 0.025 270)
+		(layer "F.SilkS")
+		(uuid "37031d4c-890f-4da4-9679-7283608aafe4")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Value" "2EDG 4P / pitch TBD"
+		(at -0.03 3 0)
+		(layer "F.Fab")
+		(uuid "1cd5a14e-67c7-431e-86f0-5a6af13cebc5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "882fad0b-5533-42ad-9c1c-3bea7179d043")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fbdf2ad-9c55-4ad4-9b1d-6169369c187d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Variant" "RS485"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "141b01f7-ac87-4161-a788-e6b33ef5c153")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Review" "Requirement; package TBD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ef9e6c4-aebb-4a10-af03-b4d2f122381e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property ki_fp_filters "Connector*:*_1x??_*")
+	(sheetname "/")
+	(sheetfile "SENZO_4Radio.kicad_sch")
+	(attr through_hole dnp)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -6 -1.2)
+		(end 6 8.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "29b04a7e-5779-4d9f-b968-aa43fe17f59c")
+	)
+	(fp_rect
+		(start -6.15 -1.35)
+		(end 6.15 9.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3fb93e63-ebbb-4d76-98fc-75ecbffc989c")
+	)
+	(pad "1" thru_hole rect
+		(at -3.81 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b0d62618-cffc-4781-b6d7-fafd28f8d136")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "31e43e84-1dad-449d-b861-f9512ef246ce")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "026dcad5-0b6c-4163-ad07-e797cbba8cd4")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dec81839-b1d8-4494-93df-f1d732ca05e4")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,1 @@
+(sym_lib_table (lib (name "FlexTesterV100") (type "KiCad") (uri "${KIPRJMOD}/FlexTesterV100.kicad_sym") (options "") (descr "FlexTesterV100 H2 and H3 passive header symbols")))

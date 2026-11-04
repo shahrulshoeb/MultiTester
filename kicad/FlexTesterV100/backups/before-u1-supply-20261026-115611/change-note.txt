@@ -1,0 +1,1 @@
+U1 high-side measurement: PSU_IN_POS = power supply positive (7-25V); REG_IN_POS = regulator input positive. PSU negative / regulator negative = GND. R1 remains 1R pending maximum current selection. U2 untouched.

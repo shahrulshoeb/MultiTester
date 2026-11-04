@@ -1,0 +1,3 @@
+(sym_lib_table (lib (name "FlexTesterV100") (type "KiCad") (uri "${KIPRJMOD}/FlexTesterV100.kicad_sym") (options "") (descr "FlexTesterV100 H2 and H3 passive header symbols"))
+  (lib (name "SENZO_A3") (type "KiCad") (uri "${KIPRJMOD}/Symbol/SENZO_A3.kicad_sym") (options "") (descr "Local SENZO symbols"))
+)

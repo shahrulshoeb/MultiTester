@@ -1,0 +1,33 @@
+{
+  "renames": {
+    "LCD_BL-PD13": "PD13",
+    "LCD_DC-PD12": "PD12",
+    "LCD_CS-PD11": "PD11",
+    "PB2_BOOT1": "PB2",
+    "USB_D-": "PA11",
+    "USB_D+": "PA12",
+    "SDIO_D1_PC9": "PC9",
+    "SDIO_D0_PC8": "PC8",
+    "USART1-TX_PA9": "PA9",
+    "USART1-RX_PA10": "PA10",
+    "SDIO_D2_PC10": "PC10",
+    "SDIO_D3_PC11": "PC11",
+    "SDIO_CLK_PC12": "PC12",
+    "SDIO_CMD_PD2": "PD2",
+    "SPI3_SCK-PB3": "PB3",
+    "SPI3_MOSI-PB5": "PB5",
+    "PE6_KEY": "PE6",
+    "KEY_PA15": "PA15",
+    "LED_PC13": "PC13"
+  },
+  "files": [
+    {
+      "file": "D:\\MyCodex\\MultiTester\\kicad\\FlexTesterV100\\FlexTesterV100.kicad_sym",
+      "pin_names_changed": 38
+    },
+    {
+      "file": "D:\\MyCodex\\MultiTester\\kicad\\FlexTesterV100\\FlexTesterV100.kicad_sch",
+      "pin_names_changed": 19
+    }
+  ]
+}

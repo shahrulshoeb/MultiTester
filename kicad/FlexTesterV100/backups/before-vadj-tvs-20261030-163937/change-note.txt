@@ -1,0 +1,1 @@
+D2 bottom terminal connected to GND at bottom of R8. R7 18K and R8 2K unchanged. D2 remains generic bidirectional D_TVS; part number and clamp ratings not selected.

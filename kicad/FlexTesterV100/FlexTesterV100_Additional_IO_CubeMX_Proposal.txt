@@ -1,0 +1,56 @@
+SUPERSEDED by firmware/FlexTesterV100/FlexTesterV100.ioc and FlexTesterV100_IO_Map_H2_H3.txt.
+The final configuration has now been generated and checked in STM32CubeMX.
+
+FlexTesterV100 additional I/O assignment for STM32CubeMX
+21 October requirement set; prepared 22 October 2026
+STATUS: datasheet-checked proposal, NOT generated or validated by STM32CubeMX.
+CubeMX not found in inspected installation locations.
+Model: STM32F407ZGT6, LQFP144.
+
+Function                     GPIO   Contact  CubeMX signal      Configuration
+CAPTURE1                     PC6    H3_12    TIM8_CH1           AF3
+CAPTURE2                     PC7    H3_11    TIM3_CH2           AF2
+CAPTURE3                     PB8    H3_38    TIM4_CH3           AF2
+CAPTURE4                     PB9    H3_39    TIM11_CH1          AF3
+CC1101_SHARED_SCK            PB13   H2_13    SPI2_SCK           AF5
+CC1101_SHARED_MISO           PB14   H2_12    SPI2_MISO          AF5
+CC1101_SHARED_MOSI           PB15   H2_11    SPI2_MOSI          AF5
+CC1101_1_CS                  PG8    H3_9     GPIO_Output        
+CC1101_2_CS                  PG9    H3_29    GPIO_Output        
+CC1101_1_DATAREADY           PG10   H3_30    GPIO_EXTI10        
+CC1101_2_DATAREADY           PG11   H3_31    GPIO_EXTI11        
+CC1101_1_SYNC                PG12   H3_44    GPIO_EXTI12        
+CC1101_2_SYNC                PG13   H3_43    GPIO_EXTI13        
+ONBOARD_POWER_RELAY1         PD0    H3_21    GPIO_Output        
+ONBOARD_POWER_RELAY2         PD1    H3_22    GPIO_Output        
+ONBOARD_POWER_RELAY3         PD3    H3_24    GPIO_Output        
+ONBOARD_POWER_RELAY4         PD4    H3_25    GPIO_Output        
+ONBOARD_POWER_RELAY5         PD5    H3_26    GPIO_Output        
+MAX4466_ADC                  PF9    H2_54    ADC3_IN7           Analog
+RS485_TX                     PD8    H2_10    USART3_TX          AF7
+RS485_RX                     PD9    H2_9     USART3_RX          AF7
+RS485_DIRECTION              PD10   H2_8     GPIO_Output        
+LORAWAN_TX                   PA9    H3_15    USART1_TX          AF7
+LORAWAN_RX                   PA10   H3_16    USART1_RX          AF7
+TEST1                        PE6    H3_49    GPIO_EXTI6         Pull-up; active low
+TEST2                        PA15   H3_50    GPIO_EXTI15        Pull-up; active low
+INA226_SHARED_SCL            PB6    H3_36    I2C1_SCL           AF4
+INA226_SHARED_SDA            PB7    H3_37    I2C1_SDA           AF4
+INA226_1_ALERT               PF0    H3_52    GPIO_EXTI0         Pull-up; active low
+INA226_2_ALERT               PF1    H3_53    GPIO_EXTI1         Pull-up; active low
+DUT_COVER                    PF2    H3_54    GPIO_EXTI2         Closed=1; Open=0; fail-open bias
+
+Checks: 31 unique GPIO; no collision with 22 reserved ADC, 16 relay controls,
+8 digital inputs, USB, SD, LCD, SWD, crystals or BOOT1.
+TEST1/TEST2 intentionally use existing board buttons, not new pins.
+No duplicated EXTI line in these assignments. EXTI10-15 share an IRQ vector.
+Four timer channels use separate 16-bit timers; overflow handling is required.
+Shared SPI2 uses software NSS and two GPIO CS signals; set CS inactive on reset.
+Enable SWD only; do not enable full JTAG because PA15 is TEST2.
+INA226 devices need different I2C addresses and 3.3V-compatible pull-ups.
+RF DataReady/SYNC directions assumed module outputs; verify module configuration.
+No DMA routes or firmware generated; perform CubeMX clock/DMA checks.
+Five onboard SPDT relays are ADDITIONAL to the reserved sixteen relay controls.
+Remaining unallocated exposed GPIO: PA8, PB4, PB10, PB11, PB12, PD6, PD7,
+PE9, PF10, PF11, PF12, PF13, PF14, PF15, PG14, PG15.
+AC RMS, precision reference and extra safety/status functions remain unassigned.

@@ -1,0 +1,3 @@
+(fp_lib_table (lib (name "FlexTesterV100") (type "KiCad") (uri "${KIPRJMOD}/FlexTesterV100.pretty") (options "") (descr "Combined LXB H2/H3 module extracted from SENZO_FlexTest PCB"))
+  (lib (name "SENZO_Legacy") (type "KiCad") (uri "${KIPRJMOD}/SENZO_Legacy.pretty") (options "") (descr "Original SENZO footprints copied from SENZO-4Radio"))
+)
